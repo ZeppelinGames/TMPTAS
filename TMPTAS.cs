@@ -37,6 +37,7 @@ namespace TMPTAS
         private bool frameStep;
 
         private PlatformerCharacter2D player;
+        private Platformer2DUserControl playerControl;
         private Rigidbody2D playerRb;
         private Collider2D playerCol;
 
@@ -86,6 +87,7 @@ namespace TMPTAS
                     LoggerInstance.Msg(components[i].GetType().Name);
                 }
                 player = playerGO.GetComponent<PlatformerCharacter2D>();
+                playerControl = playerGO.GetComponent<Platformer2DUserControl>();
                 if (player != null)
                 {
                     playerRb = player.GetComponent<Rigidbody2D>();
@@ -94,16 +96,13 @@ namespace TMPTAS
             }
         }
 
-        float h = 0;
         public override void OnFixedUpdate()
         {
             base.OnFixedUpdate();
-
-            // PS2DPlayerScript 17
-            // Player X movememt
-            h = Input.GetAxis("Horizontal");
         }
 
+        float horizontalVal = 0;
+        TMPCustInput custInput;
         public override void OnUpdate()
         {
             base.OnUpdate();
@@ -112,30 +111,36 @@ namespace TMPTAS
             if (player != null)
             {
                 playerPositionText.text = $"{player.transform.position.x}, {player.transform.position.y}";
-                movementDebugLine.SetPositions(player.transform.position, (Vector2)player.transform.position + (Vector2.right * h));
+
+                // 57 Platformer2DUserControl
+                if (custInput == null)
+                {
+                    custInput = new TMPCustInput();
+                    custInput.Player.Enable();
+                }
+
+                float target = custInput.Player.Horizontal.ReadValue<float>();
+                horizontalVal = Mathf.MoveTowards(horizontalVal, target, playerControl.horizontalSmooth * Time.deltaTime);
+                movementDebugLine.SetPositions(player.transform.position, (Vector2)player.transform.position + (Vector2.right * horizontalVal));
             }
-
-            // do checks for original inputs (to be recorded)
-            // PS2DPlayerScript 33
-            if ((Input.GetKeyDown("w") || Input.GetKeyDown("up") || Input.GetKeyDown("space")))
-            {
-                // JUMP
-
-            }
-
 
             // do input checks for time control inputs (numpad)
-            if(Input.GetKeyDown(KeyCode.Keypad6))
-            {
-                int loadScene = GameControl.control.currentScene + 1;
-                loadScene = loadScene > SceneManager.sceneCountInBuildSettings ? SceneManager.sceneCountInBuildSettings : loadScene;
-                GameControl.control.SceneLoad(loadScene);
-            }
+
+            // Instant change scenes
             if (Input.GetKeyDown(KeyCode.Keypad4))
             {
                 int loadScene = GameControl.control.currentScene - 1;
                 loadScene = loadScene < 1 ? 1 : loadScene;
-                GameControl.control.SceneLoad(loadScene);
+                GameControl.control.newSceneNumber = loadScene;
+                GameControl.control.afterFade();
+            }
+
+            if(Input.GetKeyDown(KeyCode.Keypad6))
+            {
+                int loadScene = GameControl.control.currentScene + 1;
+                loadScene = loadScene > SceneManager.sceneCountInBuildSettings ? SceneManager.sceneCountInBuildSettings : loadScene;
+                GameControl.control.newSceneNumber = loadScene;
+                GameControl.control.afterFade();
             }
 
             // pause/resume time

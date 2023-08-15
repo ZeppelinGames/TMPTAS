@@ -6,211 +6,202 @@
 
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="MelonLoader">
-      <HintPath>..\..\The Master's Pupil Modded\MelonLoader\net6\MelonLoader.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\MelonLoader\net6\MelonLoader.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\Unity.InputSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\Unity.Timeline.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AccessibilityModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.AIModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.AIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AndroidJNIModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.AndroidJNIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ARModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.ARModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.ARModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AssetBundleModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.ClothModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.ClothModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClusterInputModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.ClusterInputModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.ClusterInputModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClusterRendererModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CrashReportingModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.DirectorModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.DirectorModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.DirectorModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.DSPGraphModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.DSPGraphModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.DSPGraphModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GameCenterModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.GameCenterModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.GameCenterModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GridModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.GridModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.GridModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.HotReloadModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.HotReloadModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.HotReloadModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ImageConversionModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.InputModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.InputModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.JSONSerializeModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.LocalizationModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.LocalizationModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.LocalizationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ParticleSystemModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PerformanceReportingModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Physics2DModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ProfilerModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.ProfilerModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.ProfilerModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ScreenCaptureModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SharedInternalsModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.SpatialTracking.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpriteMaskModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpriteShapeModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StreamingModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.StreamingModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.StreamingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SubstanceModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.SubstanceModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.SubstanceModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SubsystemsModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.SubsystemsModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.SubsystemsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TerrainModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.TerrainModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.TerrainModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TerrainPhysicsModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextCoreModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.TextCoreModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.TextCoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TilemapModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.TilemapModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.TilemapModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TLSModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.TLSModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.TLSModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UmbraModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UmbraModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UmbraModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UNETModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UNETModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UNETModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityConnectModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityTestProtocolModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VehiclesModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.VehiclesModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.VehiclesModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VFXModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.VFXModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.VFXModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VideoModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VRModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.VRModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.VRModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.WindModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.WindModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.WindModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XRModule">
-      <HintPath>..\..\The Master's Pupil Modded\TheMastersPupil-v1.2_Data\Managed\UnityEngine.XRModule.dll</HintPath>
+      <HintPath>..\..\..\Desktop\themasterspupilasl\The Master's Pupil\TheMastersPupil-v1.2_Data\Managed\UnityEngine.XRModule.dll</HintPath>
     </Reference>
   </ItemGroup>
 
