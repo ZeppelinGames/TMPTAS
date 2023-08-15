@@ -43,8 +43,6 @@ namespace TMPTAS
 
         private bool showDebugInfo;
 
-        private Text playerPositionText;
-
         private DebugLine movementDebugLine = new DebugLine();
         private DebugLine groundDebugLine = new DebugLine();
 
@@ -54,7 +52,9 @@ namespace TMPTAS
         private Material lineMaterial;
 
         private Transform m_GroundCheck;
-        private Transform    m_CeilingCheck;
+        private Transform m_CeilingCheck;
+
+        private Text playerPositionText;
 
         public override void OnSceneWasLoaded(int buildIndex, string sceneName)
         {
@@ -66,13 +66,21 @@ namespace TMPTAS
             TryGetPlayer();
 
             // Get all scene colliders (probably a bad idea)
-            Collider2D[] colliders = GameObject.FindObjectsOfType<Collider2D>();
+            colliders = GameObject.FindObjectsOfType<Collider2D>();
             colliderDebugLines = new DebugLine[colliders.Length];
+
+            for (int i = 0; i < colliderDebugLines.Length; i++)
+            {
+                colliderDebugLines[i] = new DebugLine(0.05f);
+                colliderDebugLines[i].CreateLine(lineMaterial);
+                colliderDebugLines[i].SetColor(colliders[i].isTrigger ? Color.yellow : Color.blue);
+            }
             UpdateDebugColliders();
 
-                // add text to scene for info
-                Canvas canvas = new GameObject().AddComponent<Canvas>();
-            playerPositionText = new GameObject().AddComponent<Text>();
+            // add text to scene for info
+            Canvas canvas = UIHelper.CreateCanvas();
+            RectTransform canvasPanel = UIHelper.CreatePanel(canvas, Color.black, 150, 50, AnchorPreset.TopLeft);
+            playerPositionText = UIHelper.CreateTextBox(canvasPanel, "0, 0", Color.white, 16, TextAnchor.MiddleLeft, AnchorPreset.Stretch);
 
             movementDebugLine.CreateLine(lineMaterial);
             groundDebugLine.CreateLine(lineMaterial);
@@ -129,7 +137,7 @@ namespace TMPTAS
 
             if (player != null)
             {
-                playerPositionText.text = $"{player.transform.position.x}, {player.transform.position.y}";
+                playerPositionText.text = $"{player.transform.position.x:F3}, {player.transform.position.y:F3}";
 
                 // 57 Platformer2DUserControl
                 if (custInput == null)
@@ -145,6 +153,7 @@ namespace TMPTAS
                 // Show ground check
                 groundDebugLine.SetColor(m_Grounded ? Color.green : Color.red);
                 groundDebugLine.SetPositions(player.transform.position, m_GroundCheck.position);
+
             }
 
             // do input checks for time control inputs (numpad)
@@ -158,7 +167,7 @@ namespace TMPTAS
                 GameControl.control.afterFade();
             }
 
-            if(Input.GetKeyDown(KeyCode.Keypad6))
+            if (Input.GetKeyDown(KeyCode.Keypad6))
             {
                 int loadScene = GameControl.control.currentScene + 1;
                 loadScene = loadScene > SceneManager.sceneCountInBuildSettings ? SceneManager.sceneCountInBuildSettings : loadScene;
@@ -201,33 +210,37 @@ namespace TMPTAS
 
         void UpdateDebugColliders()
         {
-            if(colliders == null)
+            if (colliders == null)
             {
                 return;
             }
 
             for (int i = 0; i < colliderDebugLines.Length; i++)
             {
-                colliderDebugLines[i] = new DebugLine();
-                colliderDebugLines[i].CreateLine(lineMaterial);
-                colliderDebugLines[i].SetColor(Color.blue);
-
                 switch (colliders[i])
                 {
                     case PolygonCollider2D poly:
-                        colliderDebugLines[i].SetPositions(poly.points);
+                        Vector3[] polyPoints = new Vector3[poly.points.Length + 1];
+                        for (int j = 0; j < poly.points.Length; j++)
+                        {
+                            polyPoints[j] = poly.transform.position + Vector3.Scale(poly.transform.lossyScale, (Vector3)poly.points[j]);
+                        }
+                        polyPoints[^1] = (Vector3)poly.points[0] + poly.transform.position;
+                        colliderDebugLines[i].SetPositions(polyPoints);
                         break;
                     case BoxCollider2D box:
-                        Vector2[] points = new Vector2[]
+                        Vector2[] boxPoints = new Vector2[]
                         {
-                            box.transform.position + new Vector3(box.size.x/2f,-box.size.y / 2f),
-                            box.transform.position + new Vector3(-(box.size.x/2f),-box.size.y / 2f),
+                            box.transform.position + Vector3.Scale(box.transform.lossyScale, new Vector3(box.size.x/2f,-box.size.y / 2f)),
+                            box.transform.position + Vector3.Scale(box.transform.lossyScale, new Vector3(-(box.size.x/2f),-box.size.y / 2f)),
 
-                            box.transform.position + new Vector3(box.size.x/2f,box.size.y / 2f),
-                            box.transform.position + new Vector3(-(box.size.x/2f),box.size.y / 2f),
+                            box.transform.position + Vector3.Scale(box.transform.lossyScale, new Vector3(-(box.size.x/2f),box.size.y / 2f)),
+                            box.transform.position + Vector3.Scale(box.transform.lossyScale, new Vector3(box.size.x/2f,box.size.y / 2f)),
+
+                            box.transform.position + Vector3.Scale(box.transform.lossyScale,new Vector3(box.size.x/2f,-box.size.y / 2f)),
                         };
 
-                        colliderDebugLines[i].SetPositions(points);
+                        colliderDebugLines[i].SetPositions(boxPoints);
                         break;
                 }
             }
