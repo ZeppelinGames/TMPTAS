@@ -2,7 +2,7 @@
  The Masters Pupil TAS Tool
 
 ## Setup
-- Install [MelonLoader](https://melonwiki.xyz/#/?id=automated-installation)  
+- Install [MelonLoader](https://melonwiki.xyz/#/?id=automated-installation) (I'd recommend making a duplicate of your Masters Pupil folder to keep a clean and modded build seperate) 
 - Build TMPTAS solution
   - If `Dependancies` are missing (you will have a lot of errors):
     - Open solution explorer
