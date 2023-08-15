@@ -16,12 +16,16 @@
 - Put built `TMPTAS.dll` in modded The Masters Pupil `/mods/` directory
 
 ## Features/Controls
-KeyPad0: Resume/Pause time
-KeyPad1: Set time speed to x0.5
-KeyPad2: Set time speed to x0.25
-KeyPad3: Set time speed to x0.1
+Show ingame colliders, player movement direction and player ground check.  
+Yellow colliders are *triggers* and won't cause the player to collide with them but usually run events.  
+Blue colliders are not triggers (there's no physics matrix checking yet, player may or may not collide)
 
-KeyPad4: Quick change scene backwards
-KeyPad6: Quick change scene forwards
+KeyPad0: Resume/Pause time  
+KeyPad1: Set time speed to x0.5  
+KeyPad2: Set time speed to x0.25  
+KeyPad3: Set time speed to x0.1  
 
-KeyPad9: Step frame by frame
+KeyPad4: Quick change scene backwards  
+KeyPad6: Quick change scene forwards  
+
+KeyPad9: Step frame by frame  
